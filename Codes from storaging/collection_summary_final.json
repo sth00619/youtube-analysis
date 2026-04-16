@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-10-07T15:05:49.685059",
+  "status": {
+    "kaggle": "\u2705 Complete",
+    "youtube_api": "\u2705 Complete",
+    "youniverse": "\u26a0\ufe0f Partial",
+    "internet_archive": "\u26a0\ufe0f Partial"
+  },
+  "statistics": {
+    "kaggle": {
+      "records": 173418,
+      "unique_videos": 173418,
+      "countries": 10,
+      "avg_views": 104647.61903608622,
+      "size_mb": 290.3712396621704
+    },
+    "youtube_api": {
+      "videos": 63
+    },
+    "youniverse": {
+      "files": 14,
+      "size_mb": 1422.5763463974
+    },
+    "internet_archive": {
+      "files": 6
+    },
+    "total": {
+      "files": 26,
+      "size_gb": 1.672872538678348
+    }
+  }
+}
