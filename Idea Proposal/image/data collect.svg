@@ -1,0 +1,98 @@
+<svg viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="650" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Data Collection Pipeline
+  </text>
+  
+  <!-- Kaggle Dataset Box -->
+  <g transform="translate(100, 80)">
+    <rect width="200" height="100" rx="10" fill="#4285f4" opacity="0.9"/>
+    <text x="100" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      Kaggle Dataset
+    </text>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      Trending YouTube
+    </text>
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      Video Statistics
+    </text>
+  </g>
+  
+  <!-- YouTube API Box -->
+  <g transform="translate(100, 220)">
+    <rect width="200" height="100" rx="10" fill="#ea4335" opacity="0.9"/>
+    <text x="100" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      YouTube API
+    </text>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">
+      google-api-python
+    </text>
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">
+      -client
+    </text>
+  </g>
+  
+  <!-- Internet Archive Box -->
+  <g transform="translate(100, 360)">
+    <rect width="200" height="100" rx="10" fill="#34a853" opacity="0.9"/>
+    <text x="100" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      Internet Archive
+    </text>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      Web Scraping
+    </text>
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      / API
+    </text>
+  </g>
+  
+  <!-- Raw Data Storage Box -->
+  <g transform="translate(450, 220)">
+    <rect width="250" height="150" rx="15" fill="#fbbc04" opacity="0.9"/>
+    <text x="125" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">
+      Raw Data Storage
+    </text>
+    <rect x="35" y="60" width="180" height="40" rx="5" fill="white" opacity="0.8"/>
+    <text x="125" y="85" font-family="monospace" font-size="14" text-anchor="middle" fill="#333">
+      /data/raw/
+    </text>
+    <text x="125" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+      Unprocessed Data
+    </text>
+  </g>
+  
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#5f6368"/>
+    </marker>
+  </defs>
+  
+  <!-- Kaggle to Raw Data -->
+  <path d="M 300 130 L 450 270" stroke="#5f6368" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- YouTube API to Raw Data -->
+  <path d="M 300 270 L 450 295" stroke="#5f6368" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Internet Archive to Raw Data -->
+  <path d="M 300 410 L 450 320" stroke="#5f6368" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Tools Text Box -->
+  <g transform="translate(200, 520)">
+    <rect width="400" height="50" rx="8" fill="#e8f0fe" stroke="#4285f4" stroke-width="2"/>
+    <text x="200" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a73e8">
+      Tools: Python, Pandas, Requests, API Clients
+    </text>
+  </g>
+  
+  <!-- File Format Display -->
+  <g transform="translate(105, 190)">
+    <rect width="190" height="25" rx="12" fill="#ffffff" opacity="0.9"/>
+    <text x="95" y="17" font-family="monospace" font-size="12" text-anchor="middle" fill="#5f6368">
+      *.csv, *.json
+    </text>
+  </g>
+</svg>

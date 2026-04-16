@@ -1,0 +1,7 @@
+full_pipeline_final.py: 전체 프로세스를 조율하는 메인 스크립트(아래 4개의 파일을 호출)
+
+cleaners/data_cleaner.py: 데이터 정제 규칙과 로직을 담은 파일
+collectors/youtube_collector.py: YouTube API 데이터 수집 로직
+collectors/youniverse_working_collector.py: Youniverse 데이터 수집 로직
+collectors/archive_feasible_collector.py: Internet Archive 데이터 수집 로직
+

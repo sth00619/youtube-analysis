@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="white"/>
+  
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Average Views and Engagement by Category
+  </text>
+  
+  <!-- Chart area -->
+  <rect x="70" y="60" width="680" height="280" fill="#fafafa" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <line x1="70" y1="340" x2="750" y2="340" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="60" x2="70" y2="340" stroke="#333" stroke-width="2"/>
+  
+  <!-- Horizontal grid lines -->
+  <line x1="70" y1="284" x2="750" y2="284" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="70" y1="228" x2="750" y2="228" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="70" y1="172" x2="750" y2="172" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="70" y1="116" x2="750" y2="116" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  
+  <!-- Y-axis labels left Views -->
+  <text x="60" y="345" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">0M</text>
+  <text x="60" y="289" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">2M</text>
+  <text x="60" y="233" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">4M</text>
+  <text x="60" y="177" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">6M</text>
+  <text x="60" y="121" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">8M</text>
+  <text x="60" y="65" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">10M</text>
+  
+  <!-- Y-axis labels right Engagement -->
+  <text x="760" y="345" font-family="Arial, sans-serif" font-size="12" fill="#ea4335" text-anchor="start">0%</text>
+  <text x="760" y="289" font-family="Arial, sans-serif" font-size="12" fill="#ea4335" text-anchor="start">5%</text>
+  <text x="760" y="233" font-family="Arial, sans-serif" font-size="12" fill="#ea4335" text-anchor="start">10%</text>
+  <text x="760" y="177" font-family="Arial, sans-serif" font-size="12" fill="#ea4335" text-anchor="start">15%</text>
+  <text x="760" y="121" font-family="Arial, sans-serif" font-size="12" fill="#ea4335" text-anchor="start">20%</text>
+  <text x="760" y="65" font-family="Arial, sans-serif" font-size="12" fill="#ea4335" text-anchor="start">25%</text>
+  
+  <!-- Bars -->
+  <rect x="120" y="110" width="60" height="230" fill="#4285f4" opacity="0.8"/>
+  <rect x="210" y="130" width="60" height="210" fill="#4285f4" opacity="0.8"/>
+  <rect x="300" y="200" width="60" height="140" fill="#4285f4" opacity="0.8"/>
+  <rect x="390" y="210" width="60" height="130" fill="#4285f4" opacity="0.8"/>
+  <rect x="480" y="215" width="60" height="125" fill="#4285f4" opacity="0.8"/>
+  <rect x="570" y="220" width="60" height="120" fill="#4285f4" opacity="0.8"/>
+  <rect x="660" y="225" width="60" height="115" fill="#4285f4" opacity="0.8"/>
+  
+  <!-- Engagement Rate Line -->
+  <polyline points="150,180 240,170 330,195 420,200 510,175 600,185 690,210" 
+            fill="none" stroke="#ea4335" stroke-width="3"/>
+  <circle cx="150" cy="180" r="5" fill="#ea4335"/>
+  <circle cx="240" cy="170" r="5" fill="#ea4335"/>
+  <circle cx="330" cy="195" r="5" fill="#ea4335"/>
+  <circle cx="420" cy="200" r="5" fill="#ea4335"/>
+  <circle cx="510" cy="175" r="5" fill="#ea4335"/>
+  <circle cx="600" cy="185" r="5" fill="#ea4335"/>
+  <circle cx="690" cy="210" r="5" fill="#ea4335"/>
+  
+  <!-- X-axis labels -->
+  <text x="150" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">Music</text>
+  <text x="240" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">Entertainment</text>
+  <text x="330" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">Gaming</text>
+  <text x="420" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">Education</text>
+  <text x="510" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">Comedy</text>
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">Sports</text>
+  <text x="690" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">News</text>
+  
+  <!-- Legend -->
+  <rect x="580" y="80" width="15" height="15" fill="#4285f4" opacity="0.8"/>
+  <text x="600" y="92" font-family="Arial, sans-serif" font-size="13" fill="#495057">Average Views</text>
+  <line x1="580" y1="110" x2="595" y2="110" stroke="#ea4335" stroke-width="3"/>
+  <text x="600" y="114" font-family="Arial, sans-serif" font-size="13" fill="#495057">Engagement Rate (%)</text>
+  
+  <!-- Axis labels -->
+  <text x="25" y="200" font-family="Arial, sans-serif" font-size="13" fill="#495057" text-anchor="middle" transform="rotate(-90, 25, 200)">Average Views (Millions)</text>
+  <text x="410" y="390" font-family="Arial, sans-serif" font-size="13" fill="#495057" text-anchor="middle">Category</text>
+</svg>

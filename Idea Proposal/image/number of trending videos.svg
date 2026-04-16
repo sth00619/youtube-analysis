@@ -1,0 +1,114 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="white"/>
+  
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Trending Videos Growth by Category (2017-2024)
+  </text>
+  
+  <!-- Chart area -->
+  <rect x="70" y="60" width="680" height="280" fill="#fafafa" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <line x1="70" y1="340" x2="750" y2="340" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="60" x2="70" y2="340" stroke="#333" stroke-width="2"/>
+  
+  <!-- Horizontal grid lines -->
+  <line x1="70" y1="284" x2="750" y2="284" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="70" y1="228" x2="750" y2="228" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="70" y1="172" x2="750" y2="172" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="70" y1="116" x2="750" y2="116" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  
+  <!-- Vertical grid lines -->
+  <line x1="155" y1="60" x2="155" y2="340" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="240" y1="60" x2="240" y2="340" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="325" y1="60" x2="325" y2="340" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="410" y1="60" x2="410" y2="340" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="495" y1="60" x2="495" y2="340" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="580" y1="60" x2="580" y2="340" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="665" y1="60" x2="665" y2="340" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="3,3"/>
+  
+  <!-- Y-axis labels -->
+  <text x="60" y="345" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">0</text>
+  <text x="60" y="289" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">100</text>
+  <text x="60" y="233" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">200</text>
+  <text x="60" y="177" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">300</text>
+  <text x="60" y="121" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">400</text>
+  <text x="60" y="65" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="end">500</text>
+  
+  <!-- Gaming line -->
+  <polyline points="70,320 155,300 240,270 325,230 410,180 495,130 580,90 665,70" 
+            fill="none" stroke="#4285f4" stroke-width="3"/>
+  <circle cx="70" cy="320" r="4" fill="#4285f4"/>
+  <circle cx="155" cy="300" r="4" fill="#4285f4"/>
+  <circle cx="240" cy="270" r="4" fill="#4285f4"/>
+  <circle cx="325" cy="230" r="4" fill="#4285f4"/>
+  <circle cx="410" cy="180" r="4" fill="#4285f4"/>
+  <circle cx="495" cy="130" r="4" fill="#4285f4"/>
+  <circle cx="580" cy="90" r="4" fill="#4285f4"/>
+  <circle cx="665" cy="70" r="4" fill="#4285f4"/>
+  
+  <!-- Entertainment line -->
+  <polyline points="70,325 155,310 240,290 325,265 410,235 495,200 580,170 665,150" 
+            fill="none" stroke="#34a853" stroke-width="3"/>
+  <circle cx="70" cy="325" r="4" fill="#34a853"/>
+  <circle cx="155" cy="310" r="4" fill="#34a853"/>
+  <circle cx="240" cy="290" r="4" fill="#34a853"/>
+  <circle cx="325" cy="265" r="4" fill="#34a853"/>
+  <circle cx="410" cy="235" r="4" fill="#34a853"/>
+  <circle cx="495" cy="200" r="4" fill="#34a853"/>
+  <circle cx="580" cy="170" r="4" fill="#34a853"/>
+  <circle cx="665" cy="150" r="4" fill="#34a853"/>
+  
+  <!-- Music line -->
+  <polyline points="70,330 155,320 240,305 325,290 410,270 495,250 580,230 665,215" 
+            fill="none" stroke="#fbbc04" stroke-width="3"/>
+  <circle cx="70" cy="330" r="4" fill="#fbbc04"/>
+  <circle cx="155" cy="320" r="4" fill="#fbbc04"/>
+  <circle cx="240" cy="305" r="4" fill="#fbbc04"/>
+  <circle cx="325" cy="290" r="4" fill="#fbbc04"/>
+  <circle cx="410" cy="270" r="4" fill="#fbbc04"/>
+  <circle cx="495" cy="250" r="4" fill="#fbbc04"/>
+  <circle cx="580" cy="230" r="4" fill="#fbbc04"/>
+  <circle cx="665" cy="215" r="4" fill="#fbbc04"/>
+  
+  <!-- Science and Technology line -->
+  <polyline points="70,335 155,330 240,322 325,312 410,300 495,285 580,270 665,260" 
+            fill="none" stroke="#ea4335" stroke-width="3"/>
+  <circle cx="70" cy="335" r="4" fill="#ea4335"/>
+  <circle cx="155" cy="330" r="4" fill="#ea4335"/>
+  <circle cx="240" cy="322" r="4" fill="#ea4335"/>
+  <circle cx="325" cy="312" r="4" fill="#ea4335"/>
+  <circle cx="410" cy="300" r="4" fill="#ea4335"/>
+  <circle cx="495" cy="285" r="4" fill="#ea4335"/>
+  <circle cx="580" cy="270" r="4" fill="#ea4335"/>
+  <circle cx="665" cy="260" r="4" fill="#ea4335"/>
+  
+  <!-- X-axis labels -->
+  <text x="70" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">2017</text>
+  <text x="155" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">2018</text>
+  <text x="240" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">2019</text>
+  <text x="325" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">2020</text>
+  <text x="410" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">2021</text>
+  <text x="495" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">2022</text>
+  <text x="580" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">2023</text>
+  <text x="665" y="360" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">2024</text>
+  
+  <!-- Legend -->
+  <rect x="590" y="80" width="15" height="3" fill="#4285f4"/>
+  <text x="610" y="85" font-family="Arial, sans-serif" font-size="13" fill="#495057">Gaming</text>
+  
+  <rect x="590" y="100" width="15" height="3" fill="#34a853"/>
+  <text x="610" y="105" font-family="Arial, sans-serif" font-size="13" fill="#495057">Entertainment</text>
+  
+  <rect x="590" y="120" width="15" height="3" fill="#fbbc04"/>
+  <text x="610" y="125" font-family="Arial, sans-serif" font-size="13" fill="#495057">Music</text>
+  
+  <rect x="590" y="140" width="15" height="3" fill="#ea4335"/>
+  <text x="610" y="145" font-family="Arial, sans-serif" font-size="13" fill="#495057">Science and Tech</text>
+  
+  <!-- Axis labels -->
+  <text x="25" y="200" font-family="Arial, sans-serif" font-size="13" fill="#495057" text-anchor="middle" transform="rotate(-90, 25, 200)">Number of Trending Videos</text>
+  <text x="410" y="390" font-family="Arial, sans-serif" font-size="13" fill="#495057" text-anchor="middle">Year</text>
+</svg>

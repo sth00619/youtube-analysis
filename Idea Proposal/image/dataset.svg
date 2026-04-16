@@ -1,0 +1,114 @@
+<svg viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Shadow Effect -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="650" fill="url(#bgGradient)"/>
+  
+  <!-- Title -->
+  <text x="400" y="45" font-family="Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    YouTube Trending Video Statistics Dataset
+  </text>
+  
+  <!-- Central Dataset Icon -->
+  <g transform="translate(350, 100)">
+    <circle cx="50" cy="50" r="45" fill="#ff0000" filter="url(#shadow)"/>
+    <polygon points="35,30 35,70 70,50" fill="white"/>
+  </g>
+  
+  <!-- Data Fields -->
+  <!-- Top Left - Basic Information -->
+  <g transform="translate(80, 120)">
+    <rect width="180" height="120" rx="10" fill="#4285f4" opacity="0.95" filter="url(#shadow)"/>
+    <text x="90" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      Basic Information
+    </text>
+    <text x="15" y="55" font-family="Arial, sans-serif" font-size="13" fill="white">• Video ID</text>
+    <text x="15" y="75" font-family="Arial, sans-serif" font-size="13" fill="white">• Title</text>
+    <text x="15" y="95" font-family="Arial, sans-serif" font-size="13" fill="white">• Channel Name</text>
+    <text x="15" y="115" font-family="Arial, sans-serif" font-size="13" fill="white">• Category ID</text>
+  </g>
+  
+  <!-- Top Right - Time Information -->
+  <g transform="translate(540, 120)">
+    <rect width="180" height="120" rx="10" fill="#34a853" opacity="0.95" filter="url(#shadow)"/>
+    <text x="90" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      Time Information
+    </text>
+    <text x="15" y="55" font-family="Arial, sans-serif" font-size="13" fill="white">• Publish Date</text>
+    <text x="15" y="75" font-family="Arial, sans-serif" font-size="13" fill="white">• Trending Date</text>
+    <text x="15" y="95" font-family="Arial, sans-serif" font-size="13" fill="white">• Time Duration</text>
+  </g>
+  
+  <!-- Bottom Left - Engagement Metrics -->
+  <g transform="translate(80, 340)">
+    <rect width="180" height="140" rx="10" fill="#fbbc04" opacity="0.95" filter="url(#shadow)"/>
+    <text x="90" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Engagement Metrics
+    </text>
+    <text x="15" y="55" font-family="Arial, sans-serif" font-size="13" fill="#333">• Views</text>
+    <text x="15" y="75" font-family="Arial, sans-serif" font-size="13" fill="#333">• Likes</text>
+    <text x="15" y="95" font-family="Arial, sans-serif" font-size="13" fill="#333">• Dislikes</text>
+    <text x="15" y="115" font-family="Arial, sans-serif" font-size="13" fill="#333">• Comments</text>
+    <text x="15" y="135" font-family="Arial, sans-serif" font-size="13" fill="#333">• Shares</text>
+  </g>
+  
+  <!-- Bottom Right - Metadata -->
+  <g transform="translate(540, 340)">
+    <rect width="180" height="140" rx="10" fill="#ea4335" opacity="0.95" filter="url(#shadow)"/>
+    <text x="90" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      Metadata
+    </text>
+    <text x="15" y="55" font-family="Arial, sans-serif" font-size="13" fill="white">• Tags</text>
+    <text x="15" y="75" font-family="Arial, sans-serif" font-size="13" fill="white">• Description</text>
+    <text x="15" y="95" font-family="Arial, sans-serif" font-size="13" fill="white">• Thumbnail URL</text>
+    <text x="15" y="115" font-family="Arial, sans-serif" font-size="13" fill="white">• Comments Disabled</text>
+    <text x="15" y="135" font-family="Arial, sans-serif" font-size="13" fill="white">• Ratings Disabled</text>
+  </g>
+  
+  <!-- Bottom Center - Regional Data -->
+  <g transform="translate(310, 460)">
+    <rect width="180" height="80" rx="10" fill="#6f42c1" opacity="0.95" filter="url(#shadow)"/>
+    <text x="90" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      Regional Data
+    </text>
+    <text x="90" y="55" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      🇺🇸 USA  🇬🇧 UK  🇨🇦 Canada
+    </text>
+    <text x="90" y="70" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+      🇩🇪 Germany  🇫🇷 France  🇯🇵 Japan
+    </text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <line x1="260" y1="180" x2="350" y2="145" stroke="#6c757d" stroke-width="2" opacity="0.5"/>
+  <line x1="540" y1="180" x2="450" y2="145" stroke="#6c757d" stroke-width="2" opacity="0.5"/>
+  <line x1="260" y1="410" x2="360" y2="200" stroke="#6c757d" stroke-width="2" opacity="0.5"/>
+  <line x1="540" y1="410" x2="440" y2="200" stroke="#6c757d" stroke-width="2" opacity="0.5"/>
+  <line x1="400" y1="200" x2="400" y2="460" stroke="#6c757d" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Bottom Information -->
+  <g transform="translate(200, 570)">
+    <rect width="400" height="35" rx="17" fill="white" stroke="#dee2e6" stroke-width="2"/>
+    <text x="200" y="23" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#495057">
+      Source: Kaggle - Trending YouTube Video Statistics
+    </text>
+  </g>
+</svg>

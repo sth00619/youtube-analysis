@@ -1,0 +1,288 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients matching PDF theme -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c5f3d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3a2e;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="pandas-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a7c59;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c5f3d;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="api-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5a8d66;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d6b4a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="format-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6fa278;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a7c59;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Shadow -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.2"/>
+    </filter>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background matching PDF green theme -->
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+  
+  <!-- Top header bar like PDF -->
+  <rect x="0" y="0" width="1920" height="140" fill="url(#bg-gradient)"/>
+  
+  <!-- Title -->
+  <text x="960" y="60" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+    CORE TECHNOLOGY STACK
+  </text>
+  <text x="960" y="100" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="rgba(255,255,255,0.8)">
+    Data Processing &amp; Collection Architecture
+  </text>
+
+  <!-- Technology 1: Pandas -->
+  <g transform="translate(160, 200)">
+    <rect x="0" y="0" width="500" height="700" rx="15" fill="white" filter="url(#shadow)"/>
+    
+    <!-- Header with gradient -->
+    <rect x="0" y="0" width="500" height="80" rx="15" fill="url(#pandas-gradient)"/>
+    <text x="250" y="35" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">
+      🐼 Pandas
+    </text>
+    <text x="250" y="60" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="rgba(255,255,255,0.9)">
+      Python Data Analysis Library
+    </text>
+    
+    <!-- Content sections -->
+    <g transform="translate(25, 100)">
+      <!-- Description -->
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="18" fill="#2c5f3d" font-weight="600">
+        In-Memory Data Analysis Engine
+      </text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" fill="#555">
+        Core library for DataFrame-based 2D tabular
+      </text>
+      <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" fill="#555">
+        data manipulation and analysis
+      </text>
+      
+      <!-- Implementation Files -->
+      <rect x="-5" y="90" width="460" height="130" rx="8" fill="#f0f7f4" stroke="#4a7c59" stroke-width="1"/>
+      <text x="10" y="115" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#2c5f3d">
+        📁 Implementation Files:
+      </text>
+      <text x="20" y="140" font-family="Arial, sans-serif" font-size="13" fill="#333">• data_cleaner.py</text>
+      <text x="20" y="160" font-family="Arial, sans-serif" font-size="13" fill="#333">• youtube_collector.py</text>
+      <text x="20" y="180" font-family="Arial, sans-serif" font-size="13" fill="#333">• archive_feasible_collector.py</text>
+      <text x="20" y="200" font-family="Arial, sans-serif" font-size="13" fill="#333">• youniverse_working_collector.py</text>
+      
+      <!-- Key Features -->
+      <text x="0" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#2c5f3d">
+        ✨ Key Features
+      </text>
+      <rect x="-5" y="265" width="460" height="160" rx="8" fill="#f8f9fa"/>
+      <text x="10" y="290" font-family="Arial, sans-serif" font-size="13" fill="#333">• Missing value handling (dropna, fillna)</text>
+      <text x="10" y="310" font-family="Arial, sans-serif" font-size="13" fill="#333">• Duplicate removal (drop_duplicates)</text>
+      <text x="10" y="330" font-family="Arial, sans-serif" font-size="13" fill="#333">• Type conversion &amp; filtering</text>
+      <text x="10" y="350" font-family="Arial, sans-serif" font-size="13" fill="#333">• Sorting, grouping, aggregation</text>
+      <text x="10" y="370" font-family="Arial, sans-serif" font-size="13" fill="#333">• NumPy/Scikit-learn/Matplotlib integration</text>
+      <text x="10" y="390" font-family="Arial, sans-serif" font-size="13" fill="#333">• Intuitive API for rapid development</text>
+      <text x="10" y="410" font-family="Arial, sans-serif" font-size="13" fill="#333">• High performance in-memory operations</text>
+      
+      <!-- Why Chosen -->
+      <rect x="-5" y="445" width="460" height="110" rx="8" fill="#e8f5e9" stroke="#4a7c59" stroke-width="1"/>
+      <text x="10" y="470" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#2c5f3d">
+        🎯 Why Pandas?
+      </text>
+      <text x="10" y="495" font-family="Arial, sans-serif" font-size="12" fill="#333">
+        Optimal for datasets (100K-1M records) that fit in
+      </text>
+      <text x="10" y="513" font-family="Arial, sans-serif" font-size="12" fill="#333">
+        single-machine memory. Spark/Dask overhead is
+      </text>
+      <text x="10" y="531" font-family="Arial, sans-serif" font-size="12" fill="#333">
+        unnecessary at this scale - simpler and faster.
+      </text>
+    </g>
+  </g>
+
+  <!-- Technology 2: API-Based Collection -->
+  <g transform="translate(710, 200)">
+    <rect x="0" y="0" width="500" height="700" rx="15" fill="white" filter="url(#shadow)"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="500" height="80" rx="15" fill="url(#api-gradient)"/>
+    <text x="250" y="35" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">
+      🔌 REST APIs
+    </text>
+    <text x="250" y="60" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="rgba(255,255,255,0.9)">
+      Structured Data Collection
+    </text>
+    
+    <!-- Content sections -->
+    <g transform="translate(25, 100)">
+      <!-- Description -->
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="18" fill="#2c5f3d" font-weight="600">
+        Official API Integration
+      </text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" fill="#555">
+        Leveraging Google API Client &amp; Requests library
+      </text>
+      <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" fill="#555">
+        for reliable, structured data access
+      </text>
+      
+      <!-- API Sources -->
+      <rect x="-5" y="90" width="460" height="130" rx="8" fill="#f0f7f4" stroke="#5a8d66" stroke-width="1"/>
+      <text x="10" y="115" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#2c5f3d">
+        🌐 Data Sources:
+      </text>
+      <text x="20" y="140" font-family="Arial, sans-serif" font-size="13" fill="#333">• YouTube Data API v3 (Google API Client)</text>
+      <text x="20" y="160" font-family="Arial, sans-serif" font-size="13" fill="#333">• Internet Archive API (Requests)</text>
+      <text x="20" y="180" font-family="Arial, sans-serif" font-size="13" fill="#333">• Zenodo REST API (Requests)</text>
+      <text x="20" y="200" font-family="Arial, sans-serif" font-size="13" fill="#333">• Structured JSON responses</text>
+      
+      <!-- Advantages -->
+      <text x="0" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#2c5f3d">
+        ⚡ Advantages
+      </text>
+      <rect x="-5" y="265" width="460" height="160" rx="8" fill="#f8f9fa"/>
+      <text x="10" y="290" font-family="Arial, sans-serif" font-size="13" fill="#333">• Structured data (JSON) vs HTML parsing</text>
+      <text x="10" y="310" font-family="Arial, sans-serif" font-size="13" fill="#333">• Official support &amp; documentation</text>
+      <text x="10" y="330" font-family="Arial, sans-serif" font-size="13" fill="#333">• Stable endpoints, minimal maintenance</text>
+      <text x="10" y="350" font-family="Arial, sans-serif" font-size="13" fill="#333">• Rate limiting compliance</text>
+      <text x="10" y="370" font-family="Arial, sans-serif" font-size="13" fill="#333">• Terms of Service compliant</text>
+      <text x="10" y="390" font-family="Arial, sans-serif" font-size="13" fill="#333">• Error handling &amp; retry mechanisms</text>
+      <text x="10" y="410" font-family="Arial, sans-serif" font-size="13" fill="#333">• Consistent data structure</text>
+      
+      <!-- Why Chosen -->
+      <rect x="-5" y="445" width="460" height="110" rx="8" fill="#e8f5e9" stroke="#5a8d66" stroke-width="1"/>
+      <text x="10" y="470" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#2c5f3d">
+        🎯 Why APIs over Web Scraping?
+      </text>
+      <text x="10" y="495" font-family="Arial, sans-serif" font-size="12" fill="#333">
+        Web scraping violates ToS, requires constant
+      </text>
+      <text x="10" y="513" font-family="Arial, sans-serif" font-size="12" fill="#333">
+        updates due to HTML changes. APIs provide
+      </text>
+      <text x="10" y="531" font-family="Arial, sans-serif" font-size="12" fill="#333">
+        legal, reliable, and maintainable access.
+      </text>
+    </g>
+  </g>
+
+  <!-- Technology 3: Data Formats -->
+  <g transform="translate(1260, 200)">
+    <rect x="0" y="0" width="500" height="700" rx="15" fill="white" filter="url(#shadow)"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="500" height="80" rx="15" fill="url(#format-gradient)"/>
+    <text x="250" y="35" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">
+      📊 Data Formats
+    </text>
+    <text x="250" y="60" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="rgba(255,255,255,0.9)">
+      Multi-Format Storage Strategy
+    </text>
+    
+    <!-- Content sections -->
+    <g transform="translate(25, 100)">
+      <!-- Description -->
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="18" fill="#2c5f3d" font-weight="600">
+        Dual Format Approach
+      </text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" fill="#555">
+        Strategic use of CSV &amp; Parquet formats
+      </text>
+      <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" fill="#555">
+        in save_cleaned_data function
+      </text>
+      
+      <!-- Format Comparison -->
+      <rect x="-5" y="90" width="460" height="130" rx="8" fill="#f0f7f4" stroke="#6fa278" stroke-width="1"/>
+      <text x="10" y="115" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#2c5f3d">
+        📁 Format Characteristics:
+      </text>
+      <text x="20" y="145" font-family="Arial, sans-serif" font-size="13" fill="#2c5f3d" font-weight="600">• CSV Format:</text>
+      <text x="35" y="163" font-family="Arial, sans-serif" font-size="12" fill="#333">Human-readable, universal compatibility</text>
+      <text x="20" y="185" font-family="Arial, sans-serif" font-size="13" fill="#2c5f3d" font-weight="600">• Parquet Format:</text>
+      <text x="35" y="203" font-family="Arial, sans-serif" font-size="12" fill="#333">Column-oriented, high compression</text>
+      
+      <!-- Performance Benefits -->
+      <text x="0" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#2c5f3d">
+        📈 Performance Benefits
+      </text>
+      <rect x="-5" y="265" width="460" height="160" rx="8" fill="#f8f9fa"/>
+      <text x="10" y="290" font-family="Arial, sans-serif" font-size="13" fill="#333">• Parquet: 70-90% storage reduction</text>
+      <text x="10" y="310" font-family="Arial, sans-serif" font-size="13" fill="#333">• Column pruning for faster queries</text>
+      <text x="10" y="330" font-family="Arial, sans-serif" font-size="13" fill="#333">• Native Spark/BigQuery integration</text>
+      <text x="10" y="350" font-family="Arial, sans-serif" font-size="13" fill="#333">• CSV for quick inspection/sharing</text>
+      <text x="10" y="370" font-family="Arial, sans-serif" font-size="13" fill="#333">• JSON for API responses</text>
+      <text x="10" y="390" font-family="Arial, sans-serif" font-size="13" fill="#333">• Optimized for analytics workloads</text>
+      <text x="10" y="410" font-family="Arial, sans-serif" font-size="13" fill="#333">• Seamless ecosystem integration</text>
+      
+      <!-- Why Chosen -->
+      <rect x="-5" y="445" width="460" height="110" rx="8" fill="#e8f5e9" stroke="#6fa278" stroke-width="1"/>
+      <text x="10" y="470" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#2c5f3d">
+        🎯 Why Multiple Formats?
+      </text>
+      <text x="10" y="495" font-family="Arial, sans-serif" font-size="12" fill="#333">
+        CSV for initial analysis &amp; easy sharing.
+      </text>
+      <text x="10" y="513" font-family="Arial, sans-serif" font-size="12" fill="#333">
+        Parquet for production analytics systems.
+      </text>
+      <text x="10" y="531" font-family="Arial, sans-serif" font-size="12" fill="#333">
+        Flexibility to serve different use cases.
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom decorative elements -->
+  <rect x="0" y="950" width="1920" height="130" fill="#f0f7f4"/>
+  
+  <!-- Footer metrics -->
+  <g transform="translate(960, 990)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c5f3d" font-weight="600">
+      Optimized for Scale: 100K - 1M Records | Single Machine Processing | Production Ready
+    </text>
+    
+    <!-- Metric badges -->
+    <g transform="translate(-300, 20)">
+      <rect x="-60" y="0" width="120" height="35" rx="17" fill="#4a7c59"/>
+      <text x="0" y="23" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="600">
+        10TB+ Daily
+      </text>
+    </g>
+    
+    <g transform="translate(-100, 20)">
+      <rect x="-60" y="0" width="120" height="35" rx="17" fill="#5a8d66"/>
+      <text x="0" y="23" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="600">
+        &lt;2s Queries
+      </text>
+    </g>
+    
+    <g transform="translate(100, 20)">
+      <rect x="-60" y="0" width="120" height="35" rx="17" fill="#6fa278"/>
+      <text x="0" y="23" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="600">
+        99.9% Uptime
+      </text>
+    </g>
+    
+    <g transform="translate(300, 20)">
+      <rect x="-60" y="0" width="120" height="35" rx="17" fill="#7fb285"/>
+      <text x="0" y="23" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white" font-weight="600">
+        70% Storage ↓
+      </text>
+    </g>
+  </g>
+</svg>

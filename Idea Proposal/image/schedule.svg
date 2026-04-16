@@ -1,0 +1,159 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="800" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="700" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    YouTube Analytics Project Schedule (Oct 16 - Dec 1, 2024)
+  </text>
+  
+  <!-- Grid Background -->
+  <g id="grid">
+    <!-- Week columns -->
+    <rect x="250" y="70" width="1100" height="680" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+    
+    <!-- Week headers -->
+    <g id="week-headers">
+      <rect x="250" y="70" width="157" height="40" fill="#e9ecef" stroke="#adb5bd" stroke-width="1"/>
+      <text x="328" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">W1</text>
+      <text x="328" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#6c757d">Oct 16-20</text>
+      
+      <rect x="407" y="70" width="157" height="40" fill="#e9ecef" stroke="#adb5bd" stroke-width="1"/>
+      <text x="485" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">W2</text>
+      <text x="485" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#6c757d">Oct 21-27</text>
+      
+      <rect x="564" y="70" width="157" height="40" fill="#e9ecef" stroke="#adb5bd" stroke-width="1"/>
+      <text x="642" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">W3</text>
+      <text x="642" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#6c757d">Oct 28-Nov 3</text>
+      
+      <rect x="721" y="70" width="157" height="40" fill="#e9ecef" stroke="#adb5bd" stroke-width="1"/>
+      <text x="799" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">W4</text>
+      <text x="799" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#6c757d">Nov 4-10</text>
+      
+      <rect x="878" y="70" width="157" height="40" fill="#e9ecef" stroke="#adb5bd" stroke-width="1"/>
+      <text x="956" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">W5</text>
+      <text x="956" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#6c757d">Nov 11-17</text>
+      
+      <rect x="1035" y="70" width="157" height="40" fill="#e9ecef" stroke="#adb5bd" stroke-width="1"/>
+      <text x="1113" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">W6</text>
+      <text x="1113" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#6c757d">Nov 18-24</text>
+      
+      <rect x="1192" y="70" width="158" height="40" fill="#e9ecef" stroke="#adb5bd" stroke-width="1"/>
+      <text x="1271" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">W7</text>
+      <text x="1271" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#6c757d">Nov 25-Dec 1</text>
+    </g>
+    
+    <!-- Vertical grid lines -->
+    <line x1="407" y1="110" x2="407" y2="750" stroke="#dee2e6" stroke-width="1"/>
+    <line x1="564" y1="110" x2="564" y2="750" stroke="#dee2e6" stroke-width="1"/>
+    <line x1="721" y1="110" x2="721" y2="750" stroke="#dee2e6" stroke-width="1"/>
+    <line x1="878" y1="110" x2="878" y2="750" stroke="#dee2e6" stroke-width="1"/>
+    <line x1="1035" y1="110" x2="1035" y2="750" stroke="#dee2e6" stroke-width="1"/>
+    <line x1="1192" y1="110" x2="1192" y2="750" stroke="#dee2e6" stroke-width="1"/>
+  </g>
+  
+  <!-- Task rows -->
+  <g id="tasks">
+    <!-- Storage Tasks -->
+    <rect x="50" y="130" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="150" font-family="Arial, sans-serif" font-size="12" fill="#495057">HDFS Setup &amp; Configuration</text>
+    <rect x="250" y="135" width="140" height="20" fill="#4285f4" rx="2"/>
+    <rect x="390" y="135" width="30" height="20" fill="#4285f4" opacity="0.5" rx="2"/>
+    
+    <rect x="50" y="165" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="185" font-family="Arial, sans-serif" font-size="12" fill="#495057">Create Hive Tables</text>
+    <rect x="407" y="170" width="140" height="20" fill="#4285f4" rx="2"/>
+    <rect x="547" y="170" width="30" height="20" fill="#4285f4" opacity="0.5" rx="2"/>
+    
+    <rect x="50" y="200" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="220" font-family="Arial, sans-serif" font-size="12" fill="#495057">Partition Design &amp; Implementation</text>
+    <rect x="485" y="205" width="100" height="20" fill="#4285f4" opacity="0.5" rx="2"/>
+    <rect x="585" y="205" width="140" height="20" fill="#4285f4" rx="2"/>
+    
+    <rect x="50" y="235" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="255" font-family="Arial, sans-serif" font-size="12" fill="#495057">Data Loading &amp; Validation</text>
+    <rect x="642" y="240" width="100" height="20" fill="#4285f4" opacity="0.5" rx="2"/>
+    <rect x="742" y="240" width="60" height="20" fill="#4285f4" rx="2"/>
+    
+    <!-- Processing Tasks -->
+    <rect x="50" y="280" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="300" font-family="Arial, sans-serif" font-size="12" fill="#495057">Spark Environment Setup</text>
+    <rect x="690" y="285" width="60" height="20" fill="#34a853" rx="2"/>
+    <rect x="750" y="285" width="140" height="20" fill="#34a853" rx="2"/>
+    
+    <rect x="50" y="315" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="335" font-family="Arial, sans-serif" font-size="12" fill="#495057">Data Transformation Scripts</text>
+    <rect x="799" y="320" width="140" height="20" fill="#34a853" rx="2"/>
+    <rect x="939" y="320" width="60" height="20" fill="#34a853" rx="2"/>
+    
+    <rect x="50" y="350" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="370" font-family="Arial, sans-serif" font-size="12" fill="#495057">Performance Optimization</text>
+    <rect x="850" y="355" width="30" height="20" fill="#34a853" opacity="0.5" rx="2"/>
+    <rect x="880" y="355" width="140" height="20" fill="#34a853" rx="2"/>
+    <rect x="1020" y="355" width="30" height="20" fill="#34a853" opacity="0.5" rx="2"/>
+    
+    <rect x="50" y="385" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="405" font-family="Arial, sans-serif" font-size="12" fill="#495057">Output Generation</text>
+    <rect x="956" y="390" width="100" height="20" fill="#34a853" opacity="0.5" rx="2"/>
+    <rect x="1056" y="390" width="60" height="20" fill="#34a853" rx="2"/>
+    
+    <!-- Analytics Tasks -->
+    <rect x="50" y="430" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="450" font-family="Arial, sans-serif" font-size="12" fill="#495057">MLlib Correlation Analysis</text>
+    <rect x="999" y="435" width="60" height="20" fill="#fbbc04" rx="2"/>
+    <rect x="1059" y="435" width="140" height="20" fill="#fbbc04" rx="2"/>
+    
+    <rect x="50" y="465" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="485" font-family="Arial, sans-serif" font-size="12" fill="#495057">Spark SQL Aggregations</text>
+    <rect x="1070" y="470" width="140" height="20" fill="#fbbc04" rx="2"/>
+    <rect x="1210" y="470" width="30" height="20" fill="#fbbc04" opacity="0.5" rx="2"/>
+    
+    <rect x="50" y="500" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="520" font-family="Arial, sans-serif" font-size="12" fill="#495057">Time Series Analysis</text>
+    <rect x="1113" y="505" width="100" height="20" fill="#fbbc04" opacity="0.5" rx="2"/>
+    <rect x="1213" y="505" width="60" height="20" fill="#fbbc04" rx="2"/>
+    
+    <rect x="50" y="535" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="555" font-family="Arial, sans-serif" font-size="12" fill="#495057">Statistical Validation</text>
+    <rect x="1210" y="540" width="140" height="20" fill="#fbbc04" rx="2"/>
+    
+    <!-- Visualization Tasks -->
+    <rect x="50" y="580" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="600" font-family="Arial, sans-serif" font-size="12" fill="#495057">Impala Configuration</text>
+    <rect x="1070" y="585" width="60" height="20" fill="#ea4335" rx="2"/>
+    <rect x="1130" y="585" width="60" height="20" fill="#ea4335" rx="2"/>
+    
+    <rect x="50" y="615" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="635" font-family="Arial, sans-serif" font-size="12" fill="#495057">Flask/Plotly Dashboard Dev</text>
+    <rect x="1156" y="620" width="30" height="20" fill="#ea4335" opacity="0.5" rx="2"/>
+    <rect x="1186" y="620" width="140" height="20" fill="#ea4335" rx="2"/>
+    
+    <rect x="50" y="650" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="670" font-family="Arial, sans-serif" font-size="12" fill="#495057">Tableau Integration</text>
+    <rect x="1210" y="655" width="140" height="20" fill="#ea4335" rx="2"/>
+    
+    <!-- Documentation -->
+    <rect x="50" y="695" width="200" height="30" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="55" y="715" font-family="Arial, sans-serif" font-size="12" fill="#495057">Final Report &amp; Presentation</text>
+    <rect x="1070" y="700" width="60" height="20" fill="#6c757d" rx="2"/>
+    <rect x="1130" y="700" width="220" height="20" fill="#6c757d" rx="2"/>
+  </g>
+  
+  <!-- Legend -->
+  <g id="legend" transform="translate(50, 760)">
+    <rect x="0" y="0" width="20" height="15" fill="#4285f4" rx="2"/>
+    <text x="25" y="12" font-family="Arial, sans-serif" font-size="11" fill="#495057">Storage</text>
+    
+    <rect x="100" y="0" width="20" height="15" fill="#34a853" rx="2"/>
+    <text x="125" y="12" font-family="Arial, sans-serif" font-size="11" fill="#495057">Processing</text>
+    
+    <rect x="210" y="0" width="20" height="15" fill="#fbbc04" rx="2"/>
+    <text x="235" y="12" font-family="Arial, sans-serif" font-size="11" fill="#495057">Analytics</text>
+    
+    <rect x="310" y="0" width="20" height="15" fill="#ea4335" rx="2"/>
+    <text x="335" y="12" font-family="Arial, sans-serif" font-size="11" fill="#495057">Visualization</text>
+    
+    <rect x="430" y="0" width="20" height="15" fill="#6c757d" rx="2"/>
+    <text x="455" y="12" font-family="Arial, sans-serif" font-size="11" fill="#495057">Documentation</text>
+  </g>
+</svg>

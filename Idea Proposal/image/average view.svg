@@ -1,0 +1,59 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="white"/>
+  
+  <!-- Title -->
+  <text x="30" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+    Average View Comparison by Title Keyword
+  </text>
+  
+  <!-- Chart area -->
+  <rect x="70" y="60" width="680" height="280" fill="#fafafa" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Horizontal bars -->
+  <rect x="70" y="80" width="500" height="45" fill="#6f42c1" opacity="0.85" rx="5"/>
+  <text x="85" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Contains "Challenge"</text>
+  <text x="730" y="108" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="end">1,348,025</text>
+  
+  <rect x="70" y="135" width="450" height="45" fill="#6f42c1" opacity="0.75" rx="5"/>
+  <text x="85" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Contains "VS"</text>
+  <text x="730" y="163" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="end">1,005,702</text>
+  
+  <rect x="70" y="190" width="400" height="45" fill="#dc3812" opacity="0.75" rx="5"/>
+  <text x="85" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Contains "[Exclusive]"</text>
+  <text x="730" y="218" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="end">858,578</text>
+  
+  <rect x="70" y="245" width="260" height="45" fill="#ff6900" opacity="0.75" rx="5"/>
+  <text x="85" y="265" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Contains "Review"</text>
+  <text x="730" y="273" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="end">524,760</text>
+  
+  <rect x="70" y="300" width="170" height="45" fill="#6c757d" opacity="0.75" rx="5"/>
+  <text x="85" y="320" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="white">No Keywords</text>
+  <text x="730" y="328" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="end">342,891</text>
+  
+  <!-- Grid lines (vertical) -->
+  <line x1="170" y1="60" x2="170" y2="350" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="270" y1="60" x2="270" y2="350" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="370" y1="60" x2="370" y2="350" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="470" y1="60" x2="470" y2="350" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="570" y1="60" x2="570" y2="350" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="670" y1="60" x2="670" y2="350" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+  
+  <!-- X-axis labels -->
+  <text x="70" y="365" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">0</text>
+  <text x="170" y="365" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">200K</text>
+  <text x="270" y="365" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">400K</text>
+  <text x="370" y="365" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">600K</text>
+  <text x="470" y="365" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">800K</text>
+  <text x="570" y="365" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">1M</text>
+  <text x="670" y="365" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">1.2M</text>
+  
+  <!-- Axis label -->
+  <text x="410" y="390" font-family="Arial, sans-serif" font-size="13" fill="#495057" text-anchor="middle">Average Views</text>
+  
+  <!-- Percentage labels on bars -->
+  <text x="560" y="100" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="end">+293%</text>
+  <text x="510" y="155" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="end">+193%</text>
+  <text x="460" y="210" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="end">+150%</text>
+  <text x="320" y="265" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="end">+53%</text>
+</svg>

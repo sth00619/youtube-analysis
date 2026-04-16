@@ -1,0 +1,275 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect width="1600" height="70" fill="#2c3e50"/>
+  <text x="50" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">
+    YouTube Trending Analytics Dashboard
+  </text>
+  <text x="1400" y="45" font-family="Arial, sans-serif" font-size="14" fill="#95a5a6">
+    Last Updated: Dec 1, 2024
+  </text>
+  
+  <!-- KPI Cards -->
+  <g id="kpi-cards" transform="translate(50, 100)">
+    <!-- Total Videos Card -->
+    <rect x="0" y="0" width="360" height="120" fill="white" rx="8" stroke="#e0e0e0" stroke-width="1"/>
+    <rect x="0" y="0" width="8" height="120" fill="#4285f4" rx="4 0 0 4"/>
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6c757d">Total Videos Analyzed</text>
+    <text x="30" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2c3e50">173,416</text>
+    <text x="30" y="95" font-family="Arial, sans-serif" font-size="12" fill="#28a745">↑ 15.3% from last month</text>
+    
+    <!-- Avg Views Card -->
+    <rect x="380" y="0" width="360" height="120" fill="white" rx="8" stroke="#e0e0e0" stroke-width="1"/>
+    <rect x="380" y="0" width="8" height="120" fill="#34a853" rx="4 0 0 4"/>
+    <text x="410" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6c757d">Average Views</text>
+    <text x="410" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2c3e50">2.8M</text>
+    <text x="410" y="95" font-family="Arial, sans-serif" font-size="12" fill="#28a745">↑ 8.2% from last month</text>
+    
+    <!-- Engagement Rate Card -->
+    <rect x="760" y="0" width="360" height="120" fill="white" rx="8" stroke="#e0e0e0" stroke-width="1"/>
+    <rect x="760" y="0" width="8" height="120" fill="#fbbc04" rx="4 0 0 4"/>
+    <text x="790" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6c757d">Avg Engagement Rate</text>
+    <text x="790" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2c3e50">4.7%</text>
+    <text x="790" y="95" font-family="Arial, sans-serif" font-size="12" fill="#dc3545">↓ 0.3% from last month</text>
+    
+    <!-- Top Category Card -->
+    <rect x="1140" y="0" width="360" height="120" fill="white" rx="8" stroke="#e0e0e0" stroke-width="1"/>
+    <rect x="1140" y="0" width="8" height="120" fill="#ea4335" rx="4 0 0 4"/>
+    <text x="1170" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6c757d">Top Category</text>
+    <text x="1170" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2c3e50">Music</text>
+    <text x="1170" y="95" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">28% of trending videos</text>
+  </g>
+  
+  <!-- Category Performance Chart -->
+  <g id="category-chart" transform="translate(50, 250)">
+    <rect width="740" height="300" fill="white" rx="8" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Average Views and Engagement by Category
+    </text>
+    
+    <!-- Y-axis labels -->
+    <text x="35" y="270" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">0M</text>
+    <text x="35" y="220" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">2M</text>
+    <text x="35" y="170" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">4M</text>
+    <text x="35" y="120" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">6M</text>
+    <text x="35" y="70" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">8M</text>
+    
+    <!-- Bars -->
+    <rect x="60" y="90" width="70" height="180" fill="#4285f4" opacity="0.8"/>
+    <rect x="150" y="110" width="70" height="160" fill="#4285f4" opacity="0.8"/>
+    <rect x="240" y="170" width="70" height="100" fill="#4285f4" opacity="0.8"/>
+    <rect x="330" y="180" width="70" height="90" fill="#4285f4" opacity="0.8"/>
+    <rect x="420" y="185" width="70" height="85" fill="#4285f4" opacity="0.8"/>
+    <rect x="510" y="190" width="70" height="80" fill="#4285f4" opacity="0.8"/>
+    <rect x="600" y="195" width="70" height="75" fill="#4285f4" opacity="0.8"/>
+    
+    <!-- Engagement Rate Line -->
+    <polyline points="95,150 185,140 275,160 365,165 455,145 545,155 635,175" 
+              fill="none" stroke="#ea4335" stroke-width="3"/>
+    <circle cx="95" cy="150" r="4" fill="#ea4335"/>
+    <circle cx="185" cy="140" r="4" fill="#ea4335"/>
+    <circle cx="275" cy="160" r="4" fill="#ea4335"/>
+    <circle cx="365" cy="165" r="4" fill="#ea4335"/>
+    <circle cx="455" cy="145" r="4" fill="#ea4335"/>
+    <circle cx="545" cy="155" r="4" fill="#ea4335"/>
+    <circle cx="635" cy="175" r="4" fill="#ea4335"/>
+    
+    <!-- X-axis labels -->
+    <text x="95" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">Music</text>
+    <text x="185" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">Entertainment</text>
+    <text x="275" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">Gaming</text>
+    <text x="365" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">Education</text>
+    <text x="455" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">Comedy</text>
+    <text x="545" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">Sports</text>
+    <text x="635" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">News</text>
+    
+    <!-- Legend -->
+    <rect x="550" y="55" width="15" height="15" fill="#4285f4" opacity="0.8"/>
+    <text x="570" y="65" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">Average Views</text>
+    <line x1="550" y1="85" x2="565" y2="85" stroke="#ea4335" stroke-width="3"/>
+    <text x="570" y="89" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">Engagement Rate (%)</text>
+  </g>
+  
+  <!-- Trend Analysis Chart -->
+  <g id="trend-chart" transform="translate(820, 250)">
+    <rect width="730" height="300" fill="white" rx="8" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Trending Videos Growth by Category (2017-2024)
+    </text>
+    
+    <!-- Grid lines -->
+    <line x1="60" y1="270" x2="690" y2="270" stroke="#e0e0e0" stroke-width="1"/>
+    <line x1="60" y1="220" x2="690" y2="220" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <line x1="60" y1="170" x2="690" y2="170" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <line x1="60" y1="120" x2="690" y2="120" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <line x1="60" y1="70" x2="690" y2="70" stroke="#e0e0e0" stroke-width="0.5" stroke-dasharray="2,2"/>
+    
+    <!-- Lines -->
+    <polyline points="60,250 150,230 240,210 330,180 420,150 510,120 600,90 690,70" 
+              fill="none" stroke="#4285f4" stroke-width="3"/>
+    <polyline points="60,255 150,245 240,235 330,220 420,200 510,185 600,170 690,160" 
+              fill="none" stroke="#34a853" stroke-width="3"/>
+    <polyline points="60,260 150,255 240,250 330,240 420,230 510,220 600,210 690,200" 
+              fill="none" stroke="#fbbc04" stroke-width="3"/>
+    <polyline points="60,265 150,262 240,258 330,255 420,250 510,245 600,240 690,235" 
+              fill="none" stroke="#ea4335" stroke-width="3"/>
+    
+    <!-- X-axis labels -->
+    <text x="60" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">2017</text>
+    <text x="150" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">2018</text>
+    <text x="240" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">2019</text>
+    <text x="330" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">2020</text>
+    <text x="420" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">2021</text>
+    <text x="510" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">2022</text>
+    <text x="600" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">2023</text>
+    <text x="690" y="290" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">2024</text>
+    
+    <!-- Y-axis labels -->
+    <text x="45" y="273" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">100</text>
+    <text x="45" y="223" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">200</text>
+    <text x="45" y="173" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">300</text>
+    <text x="45" y="123" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">400</text>
+    <text x="45" y="73" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="end">500</text>
+    
+    <!-- Legend -->
+    <rect x="550" y="55" width="15" height="3" fill="#4285f4"/>
+    <text x="570" y="60" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">Gaming</text>
+    <rect x="550" y="70" width="15" height="3" fill="#34a853"/>
+    <text x="570" y="75" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">Entertainment</text>
+    <rect x="550" y="85" width="15" height="3" fill="#fbbc04"/>
+    <text x="570" y="90" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">Music</text>
+    <rect x="550" y="100" width="15" height="3" fill="#ea4335"/>
+    <text x="570" y="105" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">Science &amp; Tech</text>
+  </g>
+  
+  <!-- Correlation Scatter Plot -->
+  <g id="correlation-plot" transform="translate(50, 580)">
+    <rect width="480" height="280" fill="white" rx="8" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Likes vs Comments Correlation
+    </text>
+    
+    <!-- Grid -->
+    <line x1="60" y1="250" x2="440" y2="250" stroke="#e0e0e0" stroke-width="1"/>
+    <line x1="60" y1="60" x2="60" y2="250" stroke="#e0e0e0" stroke-width="1"/>
+    
+    <!-- Scatter points -->
+    <circle cx="100" cy="220" r="3" fill="#4285f4" opacity="0.6"/>
+    <circle cx="120" cy="210" r="3" fill="#34a853" opacity="0.6"/>
+    <circle cx="140" cy="200" r="3" fill="#fbbc04" opacity="0.6"/>
+    <circle cx="160" cy="195" r="3" fill="#ea4335" opacity="0.6"/>
+    <circle cx="180" cy="185" r="3" fill="#4285f4" opacity="0.6"/>
+    <circle cx="200" cy="180" r="3" fill="#34a853" opacity="0.6"/>
+    <circle cx="220" cy="170" r="3" fill="#fbbc04" opacity="0.6"/>
+    <circle cx="240" cy="165" r="3" fill="#ea4335" opacity="0.6"/>
+    <circle cx="260" cy="155" r="3" fill="#4285f4" opacity="0.6"/>
+    <circle cx="280" cy="150" r="3" fill="#34a853" opacity="0.6"/>
+    <circle cx="300" cy="140" r="3" fill="#fbbc04" opacity="0.6"/>
+    <circle cx="320" cy="130" r="3" fill="#ea4335" opacity="0.6"/>
+    <circle cx="340" cy="120" r="3" fill="#4285f4" opacity="0.6"/>
+    <circle cx="360" cy="110" r="3" fill="#34a853" opacity="0.6"/>
+    <circle cx="380" cy="100" r="3" fill="#fbbc04" opacity="0.6"/>
+    <circle cx="400" cy="90" r="3" fill="#ea4335" opacity="0.6"/>
+    
+    <!-- More scatter points for density -->
+    <circle cx="110" cy="215" r="3" fill="#4285f4" opacity="0.4"/>
+    <circle cx="130" cy="205" r="3" fill="#34a853" opacity="0.4"/>
+    <circle cx="150" cy="190" r="3" fill="#fbbc04" opacity="0.4"/>
+    <circle cx="170" cy="188" r="3" fill="#ea4335" opacity="0.4"/>
+    <circle cx="190" cy="182" r="3" fill="#4285f4" opacity="0.4"/>
+    <circle cx="210" cy="175" r="3" fill="#34a853" opacity="0.4"/>
+    <circle cx="230" cy="168" r="3" fill="#fbbc04" opacity="0.4"/>
+    <circle cx="250" cy="160" r="3" fill="#ea4335" opacity="0.4"/>
+    <circle cx="270" cy="152" r="3" fill="#4285f4" opacity="0.4"/>
+    <circle cx="290" cy="145" r="3" fill="#34a853" opacity="0.4"/>
+    
+    <!-- Trend line -->
+    <line x1="80" y1="230" x2="420" y2="80" stroke="#dc3545" stroke-width="2" stroke-dasharray="5,5" opacity="0.6"/>
+    
+    <!-- Axis labels -->
+    <text x="250" y="270" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle">Likes (Log Scale)</text>
+    <text x="20" y="155" font-family="Arial, sans-serif" font-size="12" fill="#6c757d" text-anchor="middle" transform="rotate(-90, 20, 155)">Comments (Log Scale)</text>
+    
+    <!-- Correlation value -->
+    <rect x="350" y="65" width="80" height="30" fill="#f8f9fa" rx="4"/>
+    <text x="390" y="78" font-family="Arial, sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">Correlation</text>
+    <text x="390" y="90" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50" text-anchor="middle">r = 0.83</text>
+  </g>
+  
+  <!-- Title Keywords Analysis -->
+  <g id="keywords-chart" transform="translate(560, 580)">
+    <rect width="480" height="280" fill="white" rx="8" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Average Views by Title Keywords
+    </text>
+    
+    <!-- Bars -->
+    <rect x="60" y="60" width="360" height="30" fill="#6f42c1" opacity="0.8" rx="4"/>
+    <text x="65" y="80" font-family="Arial, sans-serif" font-size="12" fill="white">Contains "Challenge"</text>
+    <text x="415" y="80" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50" text-anchor="end">1,348,025</text>
+    
+    <rect x="60" y="100" width="320" height="30" fill="#6f42c1" opacity="0.7" rx="4"/>
+    <text x="65" y="120" font-family="Arial, sans-serif" font-size="12" fill="white">Contains "VS"</text>
+    <text x="415" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50" text-anchor="end">1,005,702</text>
+    
+    <rect x="60" y="140" width="280" height="30" fill="#dc3812" opacity="0.7" rx="4"/>
+    <text x="65" y="160" font-family="Arial, sans-serif" font-size="12" fill="white">Contains "[Exclusive]"</text>
+    <text x="415" y="160" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50" text-anchor="end">858,578</text>
+    
+    <rect x="60" y="180" width="180" height="30" fill="#ff6900" opacity="0.7" rx="4"/>
+    <text x="65" y="200" font-family="Arial, sans-serif" font-size="12" fill="white">Contains "Review"</text>
+    <text x="415" y="200" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50" text-anchor="end">524,760</text>
+    
+    <rect x="60" y="220" width="120" height="30" fill="#6c757d" opacity="0.7" rx="4"/>
+    <text x="65" y="240" font-family="Arial, sans-serif" font-size="12" fill="white">No Keywords</text>
+    <text x="415" y="240" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50" text-anchor="end">342,891</text>
+  </g>
+  
+  <!-- Top Channels Table -->
+  <g id="top-channels" transform="translate(1070, 580)">
+    <rect width="480" height="280" fill="white" rx="8" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Top Trending Channels
+    </text>
+    
+    <!-- Table header -->
+    <rect x="20" y="50" width="440" height="35" fill="#f8f9fa"/>
+    <text x="30" y="72" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#495057">Channel</text>
+    <text x="200" y="72" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#495057">Videos</text>
+    <text x="280" y="72" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#495057">Avg Views</text>
+    <text x="380" y="72" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#495057">Category</text>
+    
+    <!-- Table rows -->
+    <line x1="20" y1="85" x2="460" y2="85" stroke="#dee2e6" stroke-width="1"/>
+    <text x="30" y="105" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">MrBeast</text>
+    <text x="200" y="105" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">142</text>
+    <text x="280" y="105" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">48.2M</text>
+    <text x="380" y="105" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Entertainment</text>
+    
+    <line x1="20" y1="120" x2="460" y2="120" stroke="#dee2e6" stroke-width="1"/>
+    <text x="30" y="140" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">PewDiePie</text>
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">98</text>
+    <text x="280" y="140" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">12.5M</text>
+    <text x="380" y="140" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Gaming</text>
+    
+    <line x1="20" y1="155" x2="460" y2="155" stroke="#dee2e6" stroke-width="1"/>
+    <text x="30" y="175" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">T-Series</text>
+    <text x="200" y="175" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">256</text>
+    <text x="280" y="175" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">8.7M</text>
+    <text x="380" y="175" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Music</text>
+    
+    <line x1="20" y1="190" x2="460" y2="190" stroke="#dee2e6" stroke-width="1"/>
+    <text x="30" y="210" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Markiplier</text>
+    <text x="200" y="210" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">87</text>
+    <text x="280" y="210" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">6.3M</text>
+    <text x="380" y="210" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Gaming</text>
+    
+    <line x1="20" y1="225" x2="460" y2="225" stroke="#dee2e6" stroke-width="1"/>
+    <text x="30" y="245" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Dude Perfect</text>
+    <text x="200" y="245" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">64</text>
+    <text x="280" y="245" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">15.8M</text>
+    <text x="380" y="245" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Sports</text>
+  </g>
+</svg>
